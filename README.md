@@ -15,7 +15,7 @@ This project provides a **Bijoy-style keyboard layout** for use with **Avro Keyb
 - Windows 7 or later (Linux/macOS support may vary)
 
 ### Steps
-1. Download the latest `bijoy_layout.avro` file from the [Releases](https://github.com/your-username/Bijoy-Layout-for-Avro-Keyboard/releases) page.
+1. Download the latest `BijoyLayout.avrolayout` file from the [Releases](https://github.com/raselrahmanrocky/Bijoy-Layout-for-Avro-Keyboard/) page.
 2. Open **Avro Keyboard**.
 3. Go to **Tools → Layout Manager**.
 4. Click **Import** and select the downloaded `.avro` layout file.
