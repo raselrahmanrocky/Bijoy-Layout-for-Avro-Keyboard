@@ -24,18 +24,7 @@ This project provides a **Bijoy-style keyboard layout** for use with **Avro Keyb
 
 > 💡 Tip: You can assign a keyboard shortcut to quickly switch to this layout via Avro settings.
 
-## 🔤 Key Mapping Sample
-
-| Key | Bijoy Output |
-|-----|--------------|
-| `k` | ক            |
-| `K` | খ            |
-| `g` | গ            |
-| `G` | ঘ            |
-| `f` | ঙ            |
-| `c` | চ            |
-| `C` | ছ            |
-| ... | ...          |
+## 🔤 Key Mapping
 
 *(Full mapping follows the original Bijoy standard.)*
 
