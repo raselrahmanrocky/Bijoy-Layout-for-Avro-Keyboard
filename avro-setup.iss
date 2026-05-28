@@ -22,7 +22,7 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={commonpf32}\{#MyAppName}
+DefaultDirName={commonpf}\{#MyAppName}
 UninstallDisplayIcon={app}\{#MyAppExeName}
 ; "ArchitecturesAllowed=x64compatible" specifies that Setup cannot run
 ; on anything but x64 and Windows 11 on Arm.
@@ -55,13 +55,12 @@ Source: "assets\autodict.dct"; DestDir: "{commonappdata}\Avro Keyboard"; Flags: 
 Source: "assets\Database.db3"; DestDir: "{commonappdata}\Avro Keyboard"; Flags: ignoreversion
 Source: "assets\skins\*"; DestDir: "{commonappdata}\Avro Keyboard\Skin"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "assets\keyboard-layouts\*"; DestDir: "{commonappdata}\Avro Keyboard\Keyboard Layouts"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "build\*.exe"; DestDir: "{commonpf32}\Avro Keyboard"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "assets\docs\*"; DestDir: "{commonpf32}\Avro Keyboard"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "build\*"; DestDir: "{commonpf}\Avro Keyboard"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "assets\docs\*"; DestDir: "{commonpf}\Avro Keyboard"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "assets\fonts\Kalpurush.ttf"; DestDir: "{autofonts}"; FontInstall: "Kalpurush"; Flags: onlyifdoesntexist uninsneveruninstall
 Source: "assets\fonts\Kalpurush ANSI.ttf"; DestDir: "{autofonts}"; FontInstall: "Kalpurush ANSI"; Flags: onlyifdoesntexist uninsneveruninstall
 Source: "assets\fonts\SiyamRupali.ttf"; DestDir: "{autofonts}"; FontInstall: "Siyam Rupali"; Flags: onlyifdoesntexist uninsneveruninstall
 Source: "assets\fonts\Siyam Rupali ANSI.ttf"; DestDir: "{autofonts}"; FontInstall: "Siyam Rupali ANSI"; Flags: onlyifdoesntexist uninsneveruninstall
-
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Dirs]
