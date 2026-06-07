@@ -3,40 +3,33 @@
 ; Non-commercial use only
 
 #define MyAppName "Avro Keyboard"
-#define MyAppVersion "5.6.5"
+#define MyAppExeName "Avro Keyboard.exe"
+#define MyAppVersion GetFileVersion("build\" + MyAppExeName)
 #define MyAppPublisher "OmicronLab"
 #define MyAppURL "http://foroum.omicronlab.com/"
-#define MyAppExeName "Avro Keyboard.exe"
 #define MyAppAssocName MyAppName + ""
 #define MyAppAssocExt ".exe"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
-; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{E2703872-FEFB-4B04-B89D-0DA64713B943}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
-;AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={commonpf}\{#MyAppName}
 UninstallDisplayIcon={app}\{#MyAppExeName}
-; "ArchitecturesAllowed=x64compatible" specifies that Setup cannot run
-; on anything but x64 and Windows 11 on Arm.
+VersionInfoVersion={#MyAppVersion}
+VersionInfoTextVersion={#MyAppVersion}
+
 ArchitecturesAllowed=x64compatible
-; "ArchitecturesInstallIn64BitMode=x64compatible" requests that the
-; install be done in "64-bit mode" on x64 or Windows 11 on Arm,
-; meaning it should use the native 64-bit Program Files directory and
-; the 64-bit view of the registry.
 ArchitecturesInstallIn64BitMode=x64compatible
 ChangesAssociations=yes
 DisableProgramGroupPage=yes
 LicenseFile=LICENSE.txt
-; Uncomment the following line to run in non administrative install mode (install for current user only).
-;PrivilegesRequired=lowest
 OutputDir=Output
 OutputBaseFilename=Setup_AvroKeyboard
 SetupIconFile=assets\icons\Avro.ico
@@ -55,13 +48,14 @@ Source: "assets\autodict.dct"; DestDir: "{commonappdata}\Avro Keyboard"; Flags: 
 Source: "assets\Database.db3"; DestDir: "{commonappdata}\Avro Keyboard"; Flags: ignoreversion
 Source: "assets\skins\*"; DestDir: "{commonappdata}\Avro Keyboard\Skin"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "assets\keyboard-layouts\*"; DestDir: "{commonappdata}\Avro Keyboard\Keyboard Layouts"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "build\*"; DestDir: "{commonpf}\Avro Keyboard"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "assets\docs\*"; DestDir: "{commonpf}\Avro Keyboard"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+Source: "build\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "assets\docs\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+
 Source: "assets\fonts\Kalpurush.ttf"; DestDir: "{autofonts}"; FontInstall: "Kalpurush"; Flags: onlyifdoesntexist uninsneveruninstall
 Source: "assets\fonts\Kalpurush ANSI.ttf"; DestDir: "{autofonts}"; FontInstall: "Kalpurush ANSI"; Flags: onlyifdoesntexist uninsneveruninstall
 Source: "assets\fonts\SiyamRupali.ttf"; DestDir: "{autofonts}"; FontInstall: "Siyam Rupali"; Flags: onlyifdoesntexist uninsneveruninstall
 Source: "assets\fonts\Siyam Rupali ANSI.ttf"; DestDir: "{autofonts}"; FontInstall: "Siyam Rupali ANSI"; Flags: onlyifdoesntexist uninsneveruninstall
-; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Dirs]
 Name: "{commonappdata}\Avro Keyboard"; Permissions: users-modify
@@ -78,4 +72,3 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
-
