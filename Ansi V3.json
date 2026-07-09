@@ -1,4 +1,4 @@
-﻿{
+{
   "Constants": {
     "Numbers": {
       "A_0": {
@@ -85,7 +85,7 @@
       },
       "A_UKar3": {
         "Value": "#$59",
-        "Comment": "ু (উ-কার ৩ - ড়ু\/ঢ়ু)"
+        "Comment": "ু (উ-কার ৩ - ড়ু/ঢ়ু)"
       },
       "A_UKar4": {
         "Value": "#$26",
@@ -773,309 +773,309 @@
   },
   "FullFormReplacements": [
     {
-      "Key": "ন্ত",
+      "Key": "#$09A8#$09CD#$09A4",
       "Value": "#$68#$73#$FE",
-      "Comment": ""
+      "Comment": "ন্ত"
     },
     {
-      "Key": "ন্থ্র",
-      "Value": "sþiÉ",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09A5#$09CD#$09B0",
+      "Value": "#$73#$FE#$69#$C9",
+      "Comment": "ন্থ্র"
     },
     {
-      "Key": "ন্ধ্র",
-      "Value": "õÉþ",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09A7#$09CD#$09B0",
+      "Value": "#$F5#$C9#$FE",
+      "Comment": "ন্ধ্র"
     },
     {
-      "Key": "ষ্ক্র",
-      "Value": "Üþ;þù",
-      "Comment": ""
+      "Key": "#$09B7#$09CD#$0995#$09CD#$09B0",
+      "Value": "#$DC#$FE#$3B#$FE#$F9",
+      "Comment": "ষ্ক্র"
     },
     {
-      "Key": "স্ব",
-      "Value": "ßþº",
-      "Comment": ""
+      "Key": "#$09B8#$09CD#$09AC",
+      "Value": "#$DF#$FE#$BA",
+      "Comment": "স্ব"
     },
     {
-      "Key": "স্ম",
-      "Value": "ßþ¿",
-      "Comment": ""
+      "Key": "#$09B8#$09CD#$09AE",
+      "Value": "#$DF#$FE#$BF",
+      "Comment": "স্ম"
     },
     {
-      "Key": "স্র",
-      "Value": "ßþË",
-      "Comment": ""
+      "Key": "#$09B8#$09CD#$09B0",
+      "Value": "#$DF#$FE#$CB",
+      "Comment": "স্র"
     },
     {
-      "Key": "স্ল",
-      "Value": "ßþÔ",
-      "Comment": ""
+      "Key": "#$09B8#$09CD#$09B2",
+      "Value": "#$DF#$FE#$D4",
+      "Comment": "স্ল"
     },
     {
-      "Key": "ড়্গ",
-      "Value": "X†",
-      "Comment": ""
+      "Key": "#$09DC#$09CD#$0997",
+      "Value": "#$58#$2020",
+      "Comment": "ড়্গ"
     },
     {
-      "Key": "ন্ত্ব",
-      "Value": "gsþ",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09A4#$09CD#$09AC",
+      "Value": "#$67#$73#$FE",
+      "Comment": "ন্ত্ব"
     },
     {
-      "Key": "শ্ল",
-      "Value": "ÙÕ",
-      "Comment": ""
+      "Key": "#$09B6#$09CD#$09B2",
+      "Value": "#$D9#$D5",
+      "Comment": "শ্ল"
     },
     {
-      "Key": "স্ক",
-      "Value": "ßþñ",
-      "Comment": ""
+      "Key": "#$09B8#$09CD#$0995",
+      "Value": "#$DF#$FE#$F1",
+      "Comment": "স্ক"
     },
     {
-      "Key": "ষ্প",
-      "Value": "Ü™",
-      "Comment": ""
+      "Key": "#$09B7#$09CD#$09AA",
+      "Value": "#$DC#$2122",
+      "Comment": "ষ্প"
     },
     {
-      "Key": "ষ্প্র",
-      "Value": "Ü±",
-      "Comment": ""
+      "Key": "#$09B7#$09CD#$09AA#$09CD#$09B0",
+      "Value": "#$DC#$B1",
+      "Comment": "ষ্প্র"
     },
     {
-      "Key": "ষ্ফ",
-      "Value": "Ü³þ",
-      "Comment": ""
+      "Key": "#$09B7#$09CD#$09AB",
+      "Value": "#$DC#$B3#$FE",
+      "Comment": "ষ্ফ"
     },
     {
-      "Key": "ফ্র",
-      "Value": "šÊþ",
-      "Comment": ""
+      "Key": "#$09AB#$09CD#$09B0",
+      "Value": "#$0161#$CA#$FE",
+      "Comment": "ফ্র"
     },
     {
-      "Key": "শ্ন",
-      "Value": "ÙÀ",
-      "Comment": ""
+      "Key": "#$09B6#$09CD#$09A8",
+      "Value": "#$D9#$C0",
+      "Comment": "শ্ন"
     },
     {
-      "Key": "ফ্ল",
-      "Value": "šÏþ",
-      "Comment": ""
+      "Key": "#$09AB#$09CD#$09B2",
+      "Value": "#$0161#$CF#$FE",
+      "Comment": "ফ্ল"
     },
     {
-      "Key": "ভ্ব",
-      "Value": "¦äþî",
-      "Comment": ""
+      "Key": "#$09AD#$09CD#$09AC",
+      "Value": "#$A6#$E4#$FE#$EE",
+      "Comment": "ভ্ব"
     },
     {
-      "Key": "ম্প্র",
-      "Value": "Á±",
-      "Comment": ""
+      "Key": "#$09AE#$09CD#$09AA#$09CD#$09B0",
+      "Value": "#$C1#$B1",
+      "Comment": "ম্প্র"
     },
     {
-      "Key": "ন্ত্র",
+      "Key": "#$09A8#$09CD#$09A4#$09CD#$09B0",
       "Value": "#$73#$FE#$66",
-      "Comment": ""
+      "Comment": "ন্ত্র"
     },
     {
-      "Key": "চ্ছ্র",
-      "Value": "FŠéÉ",
-      "Comment": ""
+      "Key": "#$099A#$09CD#$099B#$09CD#$09B0",
+      "Value": "#$46#$0160#$E9#$C9",
+      "Comment": "চ্ছ্র"
     },
     {
-      "Key": "চ্ব",
+      "Key": "#$099A#$09CD#$09AC",
       "Value": "#$2030#$B4",
-      "Comment": ""
+      "Comment": "চ্ব"
     },
     {
-      "Key": "ট্ব",
-      "Value": "Ý´þ",
-      "Comment": ""
+      "Key": "#$099F#$09CD#$09AC",
+      "Value": "#$DD#$B4#$FE",
+      "Comment": "ট্ব"
     },
     {
-      "Key": "ট্র",
-      "Value": "ÝþÆ",
-      "Comment": ""
+      "Key": "#$099F#$09CD#$09B0",
+      "Value": "#$DD#$FE#$C6",
+      "Comment": "ট্র"
     },
     {
-      "Key": "ম্র",
-      "Value": "ÁË",
-      "Comment": ""
+      "Key": "#$09AE#$09CD#$09B0",
+      "Value": "#$C1#$CB",
+      "Comment": "ম্র"
     },
     {
-      "Key": "ড্ব",
-      "Value": "väþî",
-      "Comment": ""
+      "Key": "#$09A1#$09CD#$09AC",
+      "Value": "#$76#$E4#$FE#$EE",
+      "Comment": "ড্ব"
     },
     {
-      "Key": "ড্র",
-      "Value": "vÈþ",
-      "Comment": ""
+      "Key": "#$09A1#$09CD#$09B0",
+      "Value": "#$76#$C8#$FE",
+      "Comment": "ড্র"
     },
     {
-      "Key": "ন্ড্র",
-      "Value": "uÈþ",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09A1#$09CD#$09B0",
+      "Value": "#$75#$C8#$FE",
+      "Comment": "ন্ড্র"
     },
     {
-      "Key": "শ্ব",
-      "Value": "Ù»",
-      "Comment": ""
+      "Key": "#$09B6#$09CD#$09AC",
+      "Value": "#$D9#$BB",
+      "Comment": "শ্ব"
     },
     {
-      "Key": "শ্ম",
-      "Value": "ÙÂ",
-      "Comment": ""
+      "Key": "#$09B6#$09CD#$09AE",
+      "Value": "#$D9#$C2",
+      "Comment": "শ্ম"
     },
     {
-      "Key": "ঢ্র",
-      "Value": "‘þÆ",
-      "Comment": ""
+      "Key": "#$09A2#$09CD#$09B0",
+      "Value": "#$2018#$FE#$C6",
+      "Comment": "ঢ্র"
     },
     {
-      "Key": "ন্ট",
-      "Value": "rÝþ",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$099F",
+      "Value": "#$72#$DD#$FE",
+      "Comment": "ন্ট"
     },
     {
-      "Key": "ন্ম",
-      "Value": "§Ã",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09AE",
+      "Value": "#$A7#$C3",
+      "Comment": "ন্ম"
     },
     {
-      "Key": "ত্ত্ব",
-      "Value": "_´",
-      "Comment": ""
+      "Key": "#$09A4#$09CD#$09A4#$09CD#$09AC",
+      "Value": "#$5F#$B4",
+      "Comment": "ত্ত্ব"
     },
     {
-      "Key": "থ্ব",
-      "Value": "í´",
-      "Comment": ""
+      "Key": "#$09A5#$09CD#$09AC",
+      "Value": "#$ED#$B4",
+      "Comment": "থ্ব"
     },
     {
-      "Key": "দঘ",
-      "Value": "å‡",
-      "Comment": ""
+      "Key": "#$09A6#$0998",
+      "Value": "#$E5#$2021",
+      "Comment": "দঘ"
     },
     {
-      "Key": "ণ্ঢ",
-      "Value": "^éW",
-      "Comment": ""
+      "Key": "#$09A3#$09CD#$09A2",
+      "Value": "#$5E#$E9#$57",
+      "Comment": "ণ্ঢ"
     },
     {
-      "Key": "ন্ঠ্য",
-      "Value": "tþÄ",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09A0#$09CD#$09AF",
+      "Value": "#$74#$FE#$C4",
+      "Comment": "ন্ঠ্য"
     },
     {
-      "Key": "ক্ল",
-      "Value": "„Ïþ",
-      "Comment": ""
+      "Key": "#$0995#$09CD#$09B2",
+      "Value": "#$201E#$CF#$FE",
+      "Comment": "ক্ল"
     },
     {
-      "Key": "ল্ব",
+      "Key": "#$09B2#$09CD#$09AC",
       "Value": "#$CD#$BA",
-      "Comment": ""
+      "Comment": "ল্ব"
     },
     {
-      "Key": "ঙ্ক্ত",
-      "Value": "ˆä_«",
-      "Comment": ""
+      "Key": "#$0999#$09CD#$0995#$09CD#$09A4",
+      "Value": "#$02C6#$E4#$5F#$AB",
+      "Comment": "ঙ্ক্ত"
     },
     {
-      "Key": "ঙ্ক্য",
-      "Value": "BþÄ",
-      "Comment": ""
+      "Key": "#$0999#$09CD#$0995#$09CD#$09AF",
+      "Value": "#$42#$FE#$C4",
+      "Comment": "ঙ্ক্য"
     },
     {
-      "Key": "স্প্র",
-      "Value": "ßþ±",
-      "Comment": ""
+      "Key": "#$09B8#$09CD#$09AA#$09CD#$09B0",
+      "Value": "#$DF#$FE#$B1",
+      "Comment": "স্প্র"
     },
     {
-      "Key": "ঙ্ক্ষ",
-      "Value": "AÇþ",
-      "Comment": ""
+      "Key": "#$0999#$09CD#$0995#$09CD#$09B7",
+      "Value": "#$41#$C7#$FE",
+      "Comment": "ঙ্ক্ষ"
     },
     {
-      "Key": "চ্ছ্ব",
+      "Key": "#$099A#$09CD#$099B#$09CD#$09AC",
       "Value": "#$46#$0160#$B4#$E9",
-      "Comment": ""
+      "Comment": "চ্ছ্ব"
     },
     {
-      "Key": "ক্ষ্ণ",
-      "Value": "Çøþ",
-      "Comment": ""
+      "Key": "#$0995#$09CD#$09B7#$09CD#$09A3",
+      "Value": "#$C7#$F8#$FE",
+      "Comment": "ক্ষ্ণ"
     },
     {
-      "Key": "গ্ন",
-      "Value": "@À",
-      "Comment": ""
+      "Key": "#$0997#$09CD#$09A8",
+      "Value": "#$40#$C0",
+      "Comment": "গ্ন"
     },
     {
-      "Key": "ণ্ব",
-      "Value": "^é»",
-      "Comment": ""
+      "Key": "#$09A3#$09CD#$09AC",
+      "Value": "#$5E#$E9#$BB",
+      "Comment": "ণ্ব"
     },
     {
-      "Key": "ন্ন",
-      "Value": "§¬",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09A8",
+      "Value": "#$A7#$AC",
+      "Comment": "ন্ন"
     },
     {
-      "Key": "প্ন",
-      "Value": "²À",
-      "Comment": ""
+      "Key": "#$09AA#$09CD#$09A8",
+      "Value": "#$B2#$C0",
+      "Comment": "প্ন"
     },
     {
-      "Key": "ল্ম",
-      "Value": "ÍÃ",
-      "Comment": ""
+      "Key": "#$09B2#$09CD#$09AE",
+      "Value": "#$CD#$C3",
+      "Comment": "ল্ম"
     },
     {
-      "Key": "ন্ব",
-      "Value": "§º",
-      "Comment": ""
+      "Key": "#$09A8#$09CD#$09AC",
+      "Value": "#$A7#$BA",
+      "Comment": "ন্ব"
     },
     {
-      "Key": "গ্ব",
-      "Value": "@»",
-      "Comment": ""
+      "Key": "#$0997#$09CD#$09AC",
+      "Value": "#$40#$BB",
+      "Comment": "গ্ব"
     },
     {
-      "Key": "গ্ম",
-      "Value": "@Â",
-      "Comment": ""
+      "Key": "#$0997#$09CD#$09AE",
+      "Value": "#$40#$C2",
+      "Comment": "গ্ম"
     },
     {
-      "Key": "গ্ল",
+      "Key": "#$0997#$09CD#$09B2",
       "Value": "#$40#$D5",
-      "Comment": ""
+      "Comment": "গ্ল"
     },
     {
-      "Key": "ক্ষ্ন",
-      "Value": "Çäþ˜",
-      "Comment": ""
+      "Key": "#$0995#$09CD#$09B7#$09CD#$09A8",
+      "Value": "#$C7#$E4#$FE#$02DC",
+      "Comment": "ক্ষ্ন"
     },
     {
-      "Key": "ক্ষ্ব",
-      "Value": "Ç´þ",
-      "Comment": ""
+      "Key": "#$0995#$09CD#$09B7#$09CD#$09AC",
+      "Value": "#$C7#$B4#$FE",
+      "Comment": "ক্ষ্ব"
     },
     {
-      "Key": "ক্ষ্ম",
+      "Key": "#$0995#$09CD#$09B7#$09CD#$09AE",
       "Value": "#$22",
-      "Comment": ""
+      "Comment": "ক্ষ্ম"
     },
     {
-      "Key": "গ্ণ",
-      "Value": "†ä’",
-      "Comment": ""
+      "Key": "#$0997#$09CD#$09A3",
+      "Value": "#$2020#$E4#$2019",
+      "Comment": "গ্ণ"
     },
     {
-      "Key": "গ্ধ্য",
-      "Value": "?þÄ",
-      "Comment": ""
+      "Key": "#$0997#$09CD#$09A7#$09CD#$09AF",
+      "Value": "#$3F#$FE#$C4",
+      "Comment": "গ্ধ্য"
     },
     {
       "Key": "",
@@ -1083,79 +1083,79 @@
       "Comment": ""
     },
     {
-      "Key": "স্ত্র",
+      "Key": "#$09B8#$09CD#$09A4#$09CD#$09B0",
       "Value": "#$DF#$FE#$66",
-      "Comment": ""
+      "Comment": "স্ত্র"
     },
     {
-      "Key": "ক্ট্র",
+      "Key": "#$0995#$09CD#$099F#$09CD#$09B0",
       "Value": "#$51#$C9",
-      "Comment": ""
+      "Comment": "ক্ট্র"
     },
     {
-      "Key": "স্তু",
+      "Key": "#$09B8#$09CD#$09A4#$09C1",
       "Value": "#$6C#$DF#$FE",
-      "Comment": ""
+      "Comment": "স্তু"
     },
     {
-      "Key": "স্ত",
+      "Key": "#$09B8#$09CD#$09A4",
       "Value": "#$68#$DF#$FE",
-      "Comment": ""
+      "Comment": "স্ত"
     },
     {
-      "Key": "স্ত্ব",
-      "Value": "gßþ",
-      "Comment": ""
+      "Key": "#$09B8#$09CD#$09A4#$09CD#$09AC",
+      "Value": "#$67#$DF#$FE",
+      "Comment": "স্ত্ব"
     },
     {
-      "Key": "!",
+      "Key": "#$0021",
       "Value": "#$E6",
-      "Comment": ""
+      "Comment": "!"
     },
     {
-      "Key": "*",
+      "Key": "#$002A",
       "Value": "#$A0",
-      "Comment": ""
+      "Comment": "*"
     },
     {
-      "Key": ";",
+      "Key": "#$003B",
       "Value": "#$2014",
-      "Comment": ""
+      "Comment": ";"
     },
     {
-      "Key": ",",
+      "Key": "#$002C",
       "Value": "#$2013",
-      "Comment": ""
+      "Comment": ","
     },
     {
-      "Key": "?",
+      "Key": "#$003F",
       "Value": "#$DA",
-      "Comment": ""
+      "Comment": "?"
     },
     {
-      "Key": ":",
+      "Key": "#$003A",
       "Value": "#$AD",
-      "Comment": ""
+      "Comment": ":"
     },
     {
-      "Key": "গ্র",
+      "Key": "#$0997#$09CD#$09B0",
       "Value": "#$40#$F9#$CC",
-      "Comment": ""
+      "Comment": "গ্র"
     },
     {
-      "Key": "প্র",
+      "Key": "#$09AA#$09CD#$09B0",
       "Value": "#$B2#$CC",
-      "Comment": ""
+      "Comment": "প্র"
     },
     {
-      "Key": "স্থ",
+      "Key": "#$09B8#$09CD#$09A5",
       "Value": "#$DF#$FE#$69",
-      "Comment": ""
+      "Comment": "স্থ"
     },
     {
-      "Key": "ঞু",
+      "Key": "#$099E#$09C1",
       "Value": "#$7E#$25#$0152",
-      "Comment": ""
+      "Comment": "ঞু"
     },
     {
       "Key": "#$0999#$09CD#$09AE",
