@@ -633,7 +633,7 @@
     "FirstHalfForms": {
       "A_Reph": {
         "Value": "#$C5",
-        "Comment": "্র (র-এর রেফ)"
+        "Comment": "(র-এর রেফ)"
       },
       "A_M_1H": {
         "Value": "#$C1",
@@ -762,7 +762,7 @@
         "Comment": "থ-এর দ্বিতীয় খন্ড"
       },
       "A_K_2H": {
-        "Value": "",
+        "Value": "#$F1",
         "Comment": "ক-এর দ্বিতীয় খন্ড"
       },
       "A_L_2H_3": {
@@ -788,19 +788,71 @@
       "Comment": ""
     },
     {
+      "Key": "ষ্ক্র",
+      "Value": "Üþ;þù",
+      "Comment": ""
+    },
+    {
+      "Key": "স্ব",
+      "Value": "ßþº",
+      "Comment": ""
+    },
+    {
+      "Key": "স্ম",
+      "Value": "ßþ¿",
+      "Comment": ""
+    },
+    {
+      "Key": "স্র",
+      "Value": "ßþË",
+      "Comment": ""
+    },
+    {
+      "Key": "স্ল",
+      "Value": "ßþÔ",
+      "Comment": ""
+    },
+    {
+      "Key": "ড়্গ",
+      "Value": "X†",
+      "Comment": ""
+    },
+    {
       "Key": "ন্ত্ব",
       "Value": "gsþ",
       "Comment": ""
-    },{
+    },
+    {
       "Key": "শ্ল",
       "Value": "ÙÕ",
+      "Comment": ""
+    },
+    {
+      "Key": "স্ক",
+      "Value": "ßþñ",
+      "Comment": ""
+    },
+    {
+      "Key": "ষ্প",
+      "Value": "Ü™",
+      "Comment": ""
+    },
+    {
+      "Key": "ষ্প্র",
+      "Value": "Ü±",
+      "Comment": ""
+    },
+    {
+      "Key": "ষ্ফ",
+      "Value": "Ü³þ",
       "Comment": ""
     },
     {
       "Key": "ফ্র",
       "Value": "šÊþ",
       "Comment": ""
-    },{
+    },
+    {
       "Key": "শ্ন",
       "Value": "ÙÀ",
       "Comment": ""
@@ -864,11 +916,13 @@
       "Key": "ন্ড্র",
       "Value": "uÈþ",
       "Comment": ""
-    },{
+    },
+    {
       "Key": "শ্ব",
       "Value": "Ù»",
       "Comment": ""
-    },{
+    },
+    {
       "Key": "শ্ম",
       "Value": "ÙÂ",
       "Comment": ""
@@ -931,6 +985,11 @@
     {
       "Key": "ঙ্ক্য",
       "Value": "BþÄ",
+      "Comment": ""
+    },
+    {
+      "Key": "স্প্র",
+      "Value": "ßþ±",
       "Comment": ""
     },
     {
@@ -1041,6 +1100,11 @@
     {
       "Key": "স্ত",
       "Value": "#$68#$DF#$FE",
+      "Comment": ""
+    },
+    {
+      "Key": "স্ত্ব",
+      "Value": "gßþ",
       "Comment": ""
     },
     {
